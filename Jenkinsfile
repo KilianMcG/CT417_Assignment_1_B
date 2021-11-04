@@ -4,6 +4,13 @@ pipeline {
         stage('build') {
             steps {
                 bat 'echo hello'
+                
+            }
+        }
+        
+        post {
+            always {
+                junit 'build/reports/**/*.xml'
             }
         }
     }
