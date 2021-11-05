@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 //bat 'gradlew check'
+                bat 'echo hello'
                 
             }
         }
