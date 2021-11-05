@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'gradlew check'
+                //bat 'gradlew check'
                 //bat 'echo hello'
-                //gradle assemble
+                bat 'gradle assemble'
                 //bat 'start gradlew check'
                 //gradlew check
             }
