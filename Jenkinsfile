@@ -6,14 +6,10 @@ pipeline {
                 //bat 'gradlew check'
                 //bat 'echo hello'
                 //gradle assemble
-                bar 'start gradlew check'
+                bat 'start gradlew check'
             }
         }
     }
     
-    post {
-            always {
-                junit 'build/reports/**/*.xml'
-            }
-        }
+    
 }
