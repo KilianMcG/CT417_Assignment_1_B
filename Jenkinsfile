@@ -10,8 +10,8 @@ pipeline {
                 //bat 'gradle assemble'
                 //bat 'start gradlew check'
                 //gradlew check
-                sh 'chmod +x CT417_Assignment_1_B/gradlew'
-                sh './CT417_Assignment_1_B/gradlew clean build'
+                sh 'chmod +x gradlew'
+                sh './gradlew clean build'
             }
         }
     }
