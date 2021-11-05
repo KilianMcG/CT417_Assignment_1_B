@@ -6,7 +6,7 @@ pipeline {
                 //bat 'gradlew check'
                 //bat 'echo hello'
                 //gradle assemble
-                sh './gradlew check'
+                bar 'start gradlew check'
             }
         }
     }
