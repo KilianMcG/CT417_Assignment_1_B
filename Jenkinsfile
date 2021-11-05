@@ -9,7 +9,7 @@ pipeline {
                 //bat 'gradle assemble'
                 //bat 'start gradlew check'
                 //gradlew check
-                sh 'chmod +x gradlew'
+                //sh 'chmod +x gradlew'
                 sh './gradlew clean build'
             }
         }
