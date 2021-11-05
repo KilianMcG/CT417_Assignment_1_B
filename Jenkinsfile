@@ -4,12 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                //bat 'icacls gradlew /grant Users:F'
-                //bat 'gradlew check'
-                //bat 'echo hello'
-                //bat 'gradle assemble'
-                //bat 'start gradlew check'
-                //gradlew check
+                
                 sh 'chmod +x gradlew'
                 sh './gradlew clean build'
             }
