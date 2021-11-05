@@ -4,10 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 //bat 'gradlew check'
-                //bat 'echo hello'
+                bat 'echo hello'
                 //gradle assemble
                 //bat 'start gradlew check'
-                gradlew check
+                //gradlew check
             }
         }
     }
