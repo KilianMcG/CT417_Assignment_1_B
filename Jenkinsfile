@@ -5,6 +5,7 @@ pipeline {
             steps {
                 //bat 'gradlew check'
                 bat 'echo hello'
+                gradle assemble
                 
             }
         }
